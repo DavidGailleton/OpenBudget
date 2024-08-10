@@ -1,0 +1,22 @@
+{
+  "budget": [
+    { "id": 1, "year": 2024, "month": 8, "type": "income", "budgetCategories": 1 },
+    { "id": 2, "income": 7000, "expenses": 3000, "savings": 2000 }
+  ],
+  "transactions": [
+    { "id": 1, "type": "income", "amount": 5000, "Category": 1, "date": 1723154400, "detail": null },
+    { "id": 2, "type": "expense", "amount": 2000, "Category": 2, "date": 1723154400, "detail": null },
+    { "id": 3, "type": "saving", "amount": 500, "Category": 3, "date": 1723154400, "detail": "bitcoin" }
+  ],
+  "budgetCategories": [
+    { "id":  1, "type": "income", "title": "Salaire (Net)" },
+    { "id":  2, "type": "expense", "title": "Loyer" },
+    { "id":  3, "type": "saving", "title": "Crypto" }
+  ],
+  "settings": [
+    { "id": 1, "user": 1, "startingYear": 2024, "shiftLateIncome": true, "shiftLateIncomeStartingOnDay": 20}
+  ],
+  "users": [
+    {"id": 1, "username": "david.gailleton", "name": "David", "surname": "Gailleton"}
+  ]
+}
